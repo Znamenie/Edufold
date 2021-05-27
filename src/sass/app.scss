@@ -1,4 +1,11 @@
 @import '_mixins';
 @import '_variables';
 @import '_desktop.scss';
+
+@import '_header.scss';
+
 @import '_responsive';
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
