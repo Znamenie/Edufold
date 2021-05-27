@@ -5,11 +5,11 @@
   padding-top: 50px;
   .row {
     display: flex;
+    justify-content: space-between;
     .campus-col {
       flex-basis: 32%;
       border-radius: 10px;
       margin-bottom: 30px;
-      margin: 10px;
       position: relative;
       overflow: hidden;
       img {
