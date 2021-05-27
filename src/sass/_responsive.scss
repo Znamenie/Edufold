@@ -27,6 +27,7 @@
   Мобильные устройства
  */
 @media screen and (max-width: 767px) {
+  ///////////////////////////// header
   .text-box h1 {
     font-size: 20px;
   }
@@ -56,8 +57,10 @@
     font-size: 22px;
     cursor: pointer;
   }
-
+  ///////////////////////////// course
   .row {
     flex-direction: column;
   }
+
+  ///////////////////////////// campus
 }
