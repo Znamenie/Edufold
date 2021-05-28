@@ -62,5 +62,14 @@
     flex-direction: column;
   }
 
-  ///////////////////////////// campus
+  ///////////////////////////// testimonials
+  .testimonials-col {
+    img {
+      margin-left: 0px;
+      margin-right: 15px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
 }
