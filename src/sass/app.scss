@@ -10,10 +10,17 @@
 @import '_cta.scss';
 @import '_footer.scss';
 
+@import '_aboutUs.scss';
+
 @import '_responsive';
 
 * {
   font-family: 'Poppins', sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-btn {
@@ -31,6 +38,15 @@
     background: #f44336;
     transition: 1s;
     text-decoration: none;
+    color: $text-color-1;
+  }
+}
+
+.red-btn {
+  border: 1px solid #f44336;
+  background: transparent;
+  color: $text-color-3;
+  &:hover {
     color: $text-color-1;
   }
 }
