@@ -1,9 +1,13 @@
 ## Сборка проекта
 ```
 git clone https://github.com/Znamenie/INTAS-Company.git
+```
 
-npm init 
+```
+npm init
+```
 
+```
 npm start
 ```
 
